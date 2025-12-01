@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exam.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Major+Mono+Display&family=Poiret+One&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar-logo">
+                <h1>Profil</h1>
+            </div>
+            <div class="nav-isi">
+                <a href="#home" class="active-link" id="home-link">Home</a>
+                <a href="#section1" class="active-link" id="btnAbout">About</a>
+                <a href="#edu-gallery" class="active-link" id="edukasi">Education</a>
+                <a href="#Work" class="active-link" id="pekerjaan">Work</a>
+                <a href="#Pelatihan" class="active-link" id="btnPelatihan">Skills</a>
+                <a href="#contact" class="active-link" id="kontak1">Contact</a>
+                <div class="glass-indicator"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="pertama">
+                    <img src="./img/eunwoo.png" alt="foto">
+
+                    <div class="text">
+                        <h4>Hello</h4>
+                    </div>
+
+                    <div class="text1">
+                        <h4>Welcome</h4>
+                    </div>
+
+                    <div class="text2">
+                        <h4 style="font-size: 30px; font-weight: 370;">&</h4>
+                    </div>
+
+                    <div class="text3">
+                        <h4 style="font-size: 100px; font-weight: 170;">I</h4>
+                    </div>
+
+                    <div class="text4">
+                        <h4 style="font-weight: 200;">am</h4>
+                    </div>
+
+                    <div class="text5">
+                        <h4></h4>
+                    </div>
+
+                    <div class="text6">
+                        <p>| I create clean | efficient | beautiful web applications |</p>
+                    </div>
+                    <!-- BUTTON -->
+                    <button id="openModal">Download CV</button>
+
+                    <!-- MODAL WINDOW -->
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2>Download CV</h2>
+                            <p>Klik tombol di bawah untuk mengunduh CV kamu.</p>
+
+                            <!-- Gambar CV dari Google Drive -->
+                            <img src="./img/iphone.png"
+                                alt="CV" class="modal-img">
+
+                            <!-- Tombol Download -->
+                            <a href="https://drive.google.com/uc?export=download&id=1ST5Ph32q5eOQf6Ey_B6Omljxt3koFh-C"
+                                download class="download-btn">
+                                Download Sekarang
+                            </a>
+                        </div>
+                    </div>
+
+
+            </section>
+            <section class="section1" id="about">
+                <div class="about-container">
+                    <h2 class="title">About me</h2>
+
+                    <div class="macbook-window">
+                        <div class="chat-header">
+                            <div class="profile-avatar">
+                                <img src="https://placehold.co/40x40/4f46e5/ffffff?text=AH" alt="Narrator Avatar">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Unknown</h3>
+                                <div class="profile-status">
+                                    <span class="status-dot"></span>
+                                    <span>Active Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-body" id="chatBody">
+
+                            <div class="chat-message" data-delay="0">
+                                <div class="chat-bubble bot">
+                                    Hello! Can you tell me a little bit about yourself?
+                                </div>
+                            </div>
+
+                            <div class="chat-message sender" data-delay="150">
+                                <div class="chat-bubble sender">
+                                    Sure! I'm Arief, an English Literature student who is interested in web development.
+                                </div>
+                            </div>
+
+                            <div class="chat-message" data-delay="300">
+                                <div class="chat-bubble bot">
+                                    Wow, that's interesting! What made you interested in becoming a web developer?
+                                </div>
+                            </div>
+
+                            <div class="chat-message sender" data-delay="450">
+                                <div class="chat-bubble sender">
+                                    I like to combine <i>creativity</i> and <i>logic</i>. From learning languages, I am
+                                    accustomed to structure and detail, so I want to create websites that are clean,
+                                    functional, and aesthetically pleasing.
+                                </div>
+                            </div>
+
+                            <div class="chat-message" data-delay="750">
+                                <div class="chat-bubble bot">
+                                    Cool! What skill have you mastered the most so far?
+                                </div>
+                            </div>
+
+                            <div class="chat-message sender" data-delay="1050">
+                                <div class="chat-bubble sender">
+                                    I focus on the MERN Stack, but I also enjoy experimenting with frontend design,
+                                    Tailwind CSS, and 3D interactions using Three.js.
+                                </div>
+                            </div>
+
+                            <div class="chat-message sender" data-delay="1350">
+                                <div class="chat-bubble sender">
+                                    Check the <strong>skills</strong> and <strong>education</strong> section or
+                                    <strong>contact</strong> me using the details below for more information!
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="apple-section" id="education">
+                <h2 class="title1">Education</h2>
+
+                <!-- Sticky Navigation (Apple Style) -->
+                <div class="apple-nav">
+                    <div class="dots" id="dotNavigation">
+                        <!-- Dots akan di-generate oleh JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Gallery Slider -->
+                <div class="apple-gallery">
+                    <div class="slides" id="slidesContainer">
+
+                        <!-- Slide 1: S1 Sastra Inggris -->
+                        <div class="slide" data-slide="0">
+                            <i class="fas fa-graduation-cap text-4xl mb-3 text-blue-500"></i>
+                            <h4>2022–2026 (Ongoing)</h4>
+                            <h3>S1 Sastra Inggris</h3>
+                            <p>Universitas Islam 45 Bekasi</p>
+                            <p class="mt-2 text-sm text-gray-600">Fokus pada Linguistik, Transliterasi Digital, dan
+                                Analisis Struktur Bahasa yang relevan dengan pengembangan *clean code*.</p>
+                        </div>
+
+                        <!-- Slide 2: Teknik Komputer dan Jaringan -->
+                        <div class="slide" data-slide="1">
+                            <i class="fas fa-microchip text-4xl mb-3 text-blue-500"></i>
+                            <h4>2019–2022</h4>
+                            <h3>Teknik Komputer dan Jaringan</h3>
+                            <p>SMKN 2 Kota Bekasi</p>
+                            <p class="mt-2 text-sm text-gray-600">Memperoleh dasar kuat dalam jaringan, hardware, dan
+                                logika pemrograman awal.</p>
+                        </div>
+
+                        <!-- Slide 3: MTSN 3 Kota Bekasi -->
+                        <div class="slide" data-slide="2">
+                            <i class="fas fa-school text-4xl mb-3 text-blue-500"></i>
+                            <h4>2016–2019</h4>
+                            <h3>MTSN 3 Kota Bekasi</h3>
+                            <p>Pendidikan Dasar</p>
+                            <p class="mt-2 text-sm text-gray-600">Fondasi awal pembelajaran dan pengembangan karakter.
+                            </p>
+                        </div>
+
+                        <!-- Slide 4: Sertifikasi Tambahan -->
+                        <div class="slide" data-slide="3">
+                            <i class="fas fa-certificate text-4xl mb-3 text-blue-500"></i>
+                            <h4>2023</h4>
+                            <h3>Full-Stack Web Dev Bootcamp</h3>
+                            <p>Coding Mastery Academy (Sertifikasi Non-Formal)</p>
+                            <p class="mt-2 text-sm text-gray-600">Pelatihan intensif 6 bulan (MERN Stack) yang menjadi
+                                titik balik karir.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="work-section" id="Work">
+                <h2 class="title2">Work</h2>
+
+                <div class="notification-panel" id="notificationPanel">
+                    <div class="panel-header">
+                        <div class="date" id="date">Friday, 29 November</div>
+                        <div class="clock" id="clock">12:45</div>
+                    </div>
+                    <div class="notifications">
+                        <div class="notification-card"
+                            data-detail="Pengalaman magang pertama dilakukan saat menempuh pendidikan di SMK, berperan sebagai administrasi di salah satu perusahaan berskala CV. Tugas utama meliputi penginputan data dari dokumen fisik ke dalam format Microsoft Excel secara sistematis.">
+                            <strong>Magang SMK (Administrasi)</strong> <br>Data entry into Excel.
+                        </div>
+                        <div class="notification-card"
+                            data-detail="Pengalaman magang kedua berlangsung selama masa kuliah di sebuah perusahaan PT yang baru berdiri. Penempatan pada posisi Digital Marketing, dengan tanggung jawab mencakup pengelolaan konten di media sosial serta pengembangan website perusahaan, meskipun pengerjaan web tidak selesai akibat keterbatasan waktu.">
+                            <strong>Magang Kuliah (Digital Marketing)</strong> <br>Content management & website
+                            development.
+                        </div>
+                        <div class="notification-card"
+                            data-detail="Selama masa perkuliahan, terlibat aktif dalam organisasi HIMATRIS, bertanggung jawab pada bidang desain grafis. Kegiatan meliputi pembuatan template, poster perayaan, serta partisipasi dalam berbagai kepanitiaan internal organisasi.">
+                            <strong>Aktivitas HIMATRIS</strong> <br>Graphic design & committee work.
+                        </div>
+                    </div>
+
+                    <div class="notification-detail" id="notificationDetail" style="display:none;">
+                        <p id="detailText"></p>
+                        <button id="closeDetail">Close</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills" id="Pelatihan">
+                <h2 class="title2">Skills</h2>
+
+                <div class="skills-wrapper">
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-file-word icon"></i>
+                        </div>
+                        <h4>Microsoft Office</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="80"></div>
+                        </div>
+                        <span class="percent">80%</span>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-paintbrush icon"></i>
+                        </div>
+                        <h4>Canva & Inkscape</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="70"></div>
+                        </div>
+                        <span class="percent">70%</span>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-crop icon"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="50"></div>
+                        </div>
+                        <span class="percent">50%</span>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-js icon"></i>
+                        </div>
+                        <h4>JavaScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="30"></div>
+                        </div>
+                        <span class="percent">30%</span>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-css3-alt icon"></i>
+                        </div>
+                        <h4>CSS</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="80"></div>
+                        </div>
+                        <span class="percent">80%</span>
+                    </div>
+
+                    <div class="skill-box">
+                        <div class="icon-wrapper">
+                            <i class="fa-brands fa-html5 icon"></i>
+                        </div>
+                        <h4>HTML</h4>
+                        <div class="progress">
+                            <div class="progress-bar" data-value="70"></div>
+                        </div>
+                        <span class="percent">70%</span>
+                    </div>
+
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <h2 class="title2">Hubungi Saya</h2>
+
+                <div class="contact-wrapper">
+
+                    <div class="contact-card" id="contactCard">
+
+                        <div class="contact-face front-face">
+                            <div class="avatar">AH</div>
+                            <p class="name-label">Arief Hidayat</p>
+                            <div class="tap-indicator">Ketuk untuk detail kontak</div>
+                        </div>
+
+                        <div class="contact-face back-face">
+                            <h3 class="card-title">Kontak Arief Hidayat</h3>
+                            <div class="contact-details-grid">
+
+                                <a href="https://wa.me/6281214182050?text=Selamat%20datang!%20Ada%20yang%20bisa%20saya%20bantu?"
+                                    target="_blank" class="detail-item wa">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+
+                                <a href="https://www.instagram.com/xiinq_u" target="_blank" class="detail-item ig">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/ariefhidayat01" target="_blank"
+                                    class="detail-item li">
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <footer class="footer" id="footer">
+                <div class="footer-container">
+
+                    <div class="footer-main">
+
+                        <div class="footer-section footer-brand">
+                            <h2 class="brand-title">Arief Hidayat</h2>
+                            <p class="brand-tagline">Developer • Designer • Student</p>
+                        </div>
+
+                        <div class="footer-section footer-contact">
+                            <h3>Informasi Kontak</h3>
+                            <p class="contact-info">
+                                <i class="fas fa-map-marker-alt icon"></i>
+                                Mustika Grande Block G 10/8 Rt004 Rw013
+                            </p>
+                            <p class="contact-info">
+                                <i class="fab fa-whatsapp icon"></i>
+                                081214182050
+                            </p>
+                            <p class="contact-info">
+                                <i class="fas fa-envelope icon"></i>
+                                Hidayatarief647@gmail.com
+                            </p>
+                        </div>
+
+                        <div class="footer-section footer-links">
+                            <h3>Tautan Cepat</h3>
+                            <ul>
+                                <li><a href="#about">Tentang Saya</a></li>
+                                <li><a href="#education">Edukasi</a></li>
+                                <li><a href="#Work">Pengalaman</a></li>
+                                <li><a href="#contact">Hubungi</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <hr class="footer-divider">
+
+                    <div class="footer-bottom">
+
+                        <div class="footer-socials">
+                            <a href="https://wa.me/6281214182050" target="_blank" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/xiinq_u" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/Arief Hidayat" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+
+                        <p class="footer-copy">
+                            © 2025 Arief Hidayat<br> All Rights Reserved
+                        </p>
+                    </div>
+
+                </div>
+            </footer>
+
+            <a href="#home" class="back-top-fixed" id="backTopBtn" aria-label="Kembali ke atas">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+            <script src="exam.js"></script>
+
+
+</body>
+
+
+</html>
